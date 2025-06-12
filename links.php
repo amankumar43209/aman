@@ -17,9 +17,6 @@
     <script src="js/datatables.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 
-   INSERT INTO `sms` (`name`, `class`, `roll`, `phone no`, `email`, `adhaar no`, `city`, `dob`, `picture`, `dt`) VALUES ('Aman Kumar Chourasia ', '12', '01', '1234567890', 'amankumar43209@gmail.com', '12345678012', 'Dehradun', '21/07/2003', 'aa', 'current_timestamp(6).000000');
-   
-    INSERT INTO `sms` (`name`, `class`, `roll`, `phone no`, `email`, `adhaar no`, `city`, `dob`, `picture`, `dt`) VALUES ('Aman Kumar Chourasia ', '12', '01', '1234567890', 'amankumar43209@gmail.com', '12345678012', 'Dehradun', '21/07/2003', 'aa', TIMESTAMP('current_timestamp(6).000000'))
 </body>
 
 </html>

@@ -1,0 +1,4 @@
+044	Shreya	12	Kotdwar	2004-09-20	8937494428	shreya.2000@gmail.com	87876766	students/044.jpg
+0111	saikat	11	Kotdwar	2009-10-16	8899778998	saikat77@gmail.com	66554234	students/0111.jpg
+01	Khushi Kumari	11	Rishikesh	2007-02-24	2345678897	khushi@gmail.com	32456780	students/01.jpg
+022	Ankush Kumar	12	Rishikesh	2025-06-19	1234567890	ankush@gmail.com	67898765	students/022.jpg

@@ -25,7 +25,7 @@
 
   <label for="email">email</label>
     <input type="email"  name="email" placeholder="email" required >
-     <a href="login.php">Login</a>
+     <a href="index.php">Login</a>
 <br>
     <input type="submit" value= "Submit" name="registration">
 <br>

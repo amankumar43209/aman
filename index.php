@@ -23,7 +23,7 @@
 <br>
         <label for="password">password</label>
     <input type="password"  name="password" placeholder="password" required >
-<br>
+         <a href="registration.php">Registration</a>
 <br>
 
 <br>

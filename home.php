@@ -1,3 +1,6 @@
+       <?php
+      session_start();
+    ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -39,10 +42,10 @@
             margin: auto;
         }
 
-
+ </style>
         /******************************PRELOADER END**********************************/
 
-    </style>
+   
 </head>
 
 <body>
@@ -127,6 +130,17 @@
         };
 
     </script>
+
 </body>
 
 </html>
+
+<?php
+    $userprofile  =  $_SESSION['user'];
+        if($userprofile == true){
+                
+        }else{
+             header('location:index.php');
+            echo'welcome';
+        }
+        ?>

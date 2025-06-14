@@ -29,7 +29,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="index.php">Home</a>
+                        <a class="nav-link active" href="home.php">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="insert.php">Insert data</a>
@@ -47,7 +47,7 @@
                         <a class="nav-link" href="search.php">Search Data</a>
                     </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="login.php">Login </a>
+                        <a class="nav-link" href="index.php">Login </a>
                     </li>
                      </li>
                      <li class="nav-item">

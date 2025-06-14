@@ -1,4 +1,6 @@
-
+<?php
+    session_start();
+    ?>
 
 
 <!DOCTYPE html>
@@ -56,8 +58,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
     $num = mysqli_num_rows($result); 
   
     if($num == 1) {
-        
-       header('location:home.php');
+
+            $_SESSION['user'] = $username;
+            header('location:home.php');
     }  else{
         echo'password not matched';
     }

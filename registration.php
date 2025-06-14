@@ -1,4 +1,6 @@
-
+<?php
+    session_start();
+    ?>
 
 
 <!DOCTYPE html>
@@ -49,6 +51,8 @@
     $password = $_POST["password"]; 
     $email = $_POST["email"];
           
+   
+
   
     $sql = "insert into sms value ('$username', '$password','$email')";
   

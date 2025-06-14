@@ -1,6 +1,15 @@
-<?php
-    session_start();
-?>
+       <?php
+      session_start();
+      
+    $userprofile  =  $_SESSION['user'];
+        if($userprofile == true){
+                
+        }else{
+             header('location:index.php');
+            echo'welcome';
+        }
+        
+    ?>
 <!DOCTYPE html>
 <html lang="en">
 

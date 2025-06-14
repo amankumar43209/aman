@@ -1,5 +1,14 @@
        <?php
       session_start();
+      
+    $userprofile  =  $_SESSION['user'];
+        if($userprofile == true){
+                
+        }else{
+             header('location:index.php');
+            echo'welcome';
+        }
+        
     ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -58,10 +67,10 @@
 
     <?php include 'navbar.php'?>
 
-
+       
     <!---------------------------------NAVBAR END------------------------------------>
     <!-------------------------------SERVICES START-------------------------------->
-
+ 
     <section id="services" class="container-fluid" style="background: rgb(253, 253, 254);display:flex;justify-content:center;align-items:center;flex-direction:column;height:100vh;">
         <div class="container services mt-3" style="background: rgb(253, 253, 254);display:flex;justify-content:center;align-items:center;">
             <div class="row">
@@ -135,12 +144,3 @@
 
 </html>
 
-<?php
-    $userprofile  =  $_SESSION['user'];
-        if($userprofile == true){
-                
-        }else{
-             header('location:index.php');
-            echo'welcome';
-        }
-        ?>

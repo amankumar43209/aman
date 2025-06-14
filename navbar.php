@@ -53,6 +53,9 @@
                      <li class="nav-item">
                         <a class="nav-link" href="registration.php">Signup </a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="logout.php">LogOut </a>
+                    </li>
                 </ul>
             </div>
         </div>

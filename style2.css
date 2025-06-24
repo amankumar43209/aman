@@ -1,9 +1,10 @@
 body{
-    background: rgb(22, 10, 34);
+    background: rgb(78, 176, 120);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    color: #4b8ce8;
 }
 echo{
     color: red;

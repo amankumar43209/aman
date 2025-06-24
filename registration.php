@@ -60,7 +60,7 @@
 
   
   if($result){
-        echo 'Data insearted into database';
+         header('location:index.php');
    }
        else{
        echo 'Failed';
